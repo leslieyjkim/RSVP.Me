@@ -8,3 +8,46 @@
 body {
   font-family: sans-serif;
 }
+
+.App {
+  margin: 1em;
+  text-align: center;
+}
+
+.App {
+  border: grey solid;
+}
+
+.Header {
+  font-family: cursive;
+  border-bottom: lightgrey solid 2px;
+  min-height: 2em;
+  margin: .2em;
+  min-height: 5em;
+}
+
+.LoginPage {
+  border: red solid;
+  min-height: 12em;
+  margin: .2em;
+}
+
+.MainPage {
+  border: red solid;
+  min-height: 12em;
+  background: lightblue;
+  margin: .2em;
+}
+
+.Input {
+  border: green solid thin;
+  min-height: 2em;
+  background: lightgreen;
+  margin: .2em;
+}
+
+.FriendList {
+  border: green solid thin;
+  min-height: 4em;
+  
+}
