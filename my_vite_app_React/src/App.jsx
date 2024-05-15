@@ -18,12 +18,18 @@ function App() {
   //    {user && <FriendsPage />}
 
   const login = function(username, password) {
-    console.log("login():", username, password);
+    // console.log("login():", username, password);
+    setUser({id: 1, name: username});
+  };
+
+  const logout = function(username, password) {
+    // console.log("login():", username, password);
+    setUser(null);
   };
 
   return (
     <div className="App">
-    <Header />
+    <Header logout={logout} />
     {!user && <LoginPage login={login}/>}
     {user && <FriendsPage />}
     </div>
