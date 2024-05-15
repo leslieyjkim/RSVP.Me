@@ -13,7 +13,9 @@ function App() {
   //If the user is logged in, I want to show only 'MainPage'.
   //If the user is not logged in, I want to show only 'LoginPage'.
   //For this, we have React trick called 'Conditional Rendering'
-
+  //Looks like a multiple pages app with using 'conditional rendering'
+  //    {!user && <LoginPage login={login}/>}
+  //    {user && <FriendsPage />}
 
   const login = function(username, password) {
     console.log("login():", username, password);
@@ -22,8 +24,8 @@ function App() {
   return (
     <div className="App">
     <Header />
-    <LoginPage login={login}/>
-    {/* <FriendsPage /> */}
+    {!user && <LoginPage login={login}/>}
+    {user && <FriendsPage />}
     </div>
   )
 }
