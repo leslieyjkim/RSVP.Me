@@ -8,7 +8,8 @@ const Header = function (props) {
 
     return (
         <div className="Header">
-            <div>Header</div>
+            <div>{props.text}</div>
+            <button onClick={props.logout}>Sign Out</button>
         </div>
     );
 };

@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-    <Header logout={logout} />
+    <Header text="My Friends App"logout={logout} />
     {!user && <LoginPage login={login}/>}
     {user && <FriendsPage />}
     </div>
