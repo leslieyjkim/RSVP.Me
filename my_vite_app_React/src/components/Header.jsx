@@ -1,7 +1,7 @@
 /**
  * -Displays the title and the current user
  * -Has a logout button
- * @param {text, logout, user} props 
+ * @param {text, logout, user} props //I need to know who the current user is though. so added 'user'in props.
  * @returns 
  */
 
@@ -14,7 +14,7 @@ const Header = function (props) {
     return (
         <div className="Header">
             <div>{props.text}</div>
-            {props.user && <button onClick={props.logout}>Sign Out</button>}
+            {props.user && <button onClick={props.logout}>Sign Out</button>} 
         </div>
     );
 };

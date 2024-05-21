@@ -30,8 +30,10 @@ function App() {
   return (
     <div className="App">
     <Header text="My Friends App" logout={logout} user={user} />
-    {!user && <LoginPage login={login}/>}
-    {user && <FriendsPage />}
+    {/* {!user && <LoginPage login={login}/>} */}
+    {/* {user && <FriendsPage />} */}
+
+    <FriendsPage />
     </div>
   )
 }
