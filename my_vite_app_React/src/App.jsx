@@ -4,7 +4,8 @@ import {useState} from 'react';
 import Header from './components/Header';
 import LoginPage from './components/LoginPage';
 import FriendsPage from './components/MainPage';
-
+import Input from './components/Input';
+import FriendList from './components/FriendList';
 
 
 
@@ -27,13 +28,20 @@ function App() {
     setUser(null);
   };
 
+  const mockFunction = function (text) {
+    console.log("mockFunction Called", text);
+  } //you can see the 'mockFunction Called' in console in Inspect when you typed thing in input box
+
   return (
     <div className="App">
     <Header text="My Friends App" logout={logout} user={user} />
     {/* {!user && <LoginPage login={login}/>} */}
     {/* {user && <FriendsPage />} */}
 
-    <FriendsPage />
+    {/* <FriendsPage /> */}
+    {/* <Input onSubmit={mockFunction} /> */}
+
+    <Friendlist />
     </div>
   )
 }
