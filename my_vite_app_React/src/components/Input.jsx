@@ -25,7 +25,7 @@ const Input = function(props) {
                     onChange={textChanged}
                     name="name"
                     placeholder="Enter Name" />
-                <button type="submit">Add Item</button>
+                <button type="submit">Add</button>
             </form>
         </div>
     );

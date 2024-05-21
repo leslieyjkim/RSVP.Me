@@ -32,7 +32,7 @@ export default function FriendsPage(props) {
 
     return (
         <div className='MainPage'>
-            Main Page
+            Planning to join us? Please put your name down.
             <Input onSubmit={addItem}/>
             <FriendList items={data} onClick={deleteItem}/>
         </div>
