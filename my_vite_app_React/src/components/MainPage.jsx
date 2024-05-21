@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import Input from '../components/Input';
 import FriendList from '../components/FriendList';
 import mockData from '../_mocks_/friends';
@@ -13,7 +12,9 @@ export default function FriendsPage(props) {
     const addItem = function(name) {
         if (!name) return;
 
-        const uid = 123123;
+        // const uid = uniqid();
+        // const uid = 123123; //hardcoded for testing
+        const uid = Math.random().toString(36).substring(2, 10);
         setData([...data, {name, uid}]);
     };
 

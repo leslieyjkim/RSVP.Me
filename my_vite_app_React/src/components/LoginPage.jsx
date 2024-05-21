@@ -18,7 +18,7 @@ export default function LoginPage(props) {
 
     return (
         <div className="LoginPage">
-            <form onSubmit={onSubmit}>
+            <form className="LoginForm" onSubmit={onSubmit}>
                 <p>
                     <input type="text" name="username"
                     value={email} placeholder="Enter Username or Email" 

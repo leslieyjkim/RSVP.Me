@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -7,47 +7,111 @@
 
 body {
   font-family: sans-serif;
-}
+} */
 
 .App {
   margin: 1em;
   text-align: center;
+  min-height: 14em;
 }
 
 .App {
-  border: grey solid;
+  border: rgb(238, 56, 56) solid;
 }
 
 .Header {
-  font-family: cursive;
-  border-bottom: lightgrey solid 2px;
-  min-height: 2em;
+  /* font-family: cursive; */
+  border-bottom: rgb(250, 165, 38) solid;
+  background-color: rgb(251, 219, 247);
+  justify-content: center;
+  align-items: center;
+  /* min-height: 2em; */
   margin: .2em;
-  min-height: 5em;
+  margin-bottom: .5em;
+  /* min-height: 5em; */
 }
 
 .LoginPage {
-  border: red solid;
+  /* border: red solid; */
   min-height: 12em;
   margin: .2em;
 }
 
+.LoginForm {
+}
+
 .MainPage {
-  border: red solid;
+  border: rgb(230, 207, 79) solid;
   min-height: 12em;
-  background: lightblue;
+  background: rgb(190, 233, 248);
   margin: .2em;
 }
 
 .Input {
-  border: green solid thin;
+  border: rgb(42, 214, 42) solid;
   min-height: 2em;
   background: lightgreen;
   margin: .2em;
 }
 
 .FriendList {
-  border: green solid thin;
+  border: rgb(51, 178, 51) solid;
   min-height: 4em;
-  margin: 0.7em;
+  margin: .2em;
+}
+
+.FriendListItem {
+  /* border: magenta solid 2px ; */
+  min-height: 1em;
+  margin: .2em
+}
+
+h1 {
+  font-family: cursive;
+  padding: 0px;
+  margin: 0.2em;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0.2em;
+  margin-bottom: 2em;
+}
+
+h4:empty:before {
+  content: "\200b";
+  /* unicode zero width space character */
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: auto;
+  width: 16em;
+}
+
+li {
+  padding: 5px;
+  margin: 2px;
+  background-color: #eee;
+  text-align: left;
+}
+
+li a {
+  color: grey;
+}
+
+li:hover {
+  background-color: rgb(211, 61, 35);
+  color: white;
+  cursor: pointer;
+}
+
+li:hover a {
+  color: white;
+}
+
+button {
+  padding: 2px;
+  margin: 4px 2px 4px 2px;
 }
