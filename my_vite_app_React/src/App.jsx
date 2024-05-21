@@ -38,10 +38,10 @@ function App() {
     {/* {!user && <LoginPage login={login}/>} */}
     {/* {user && <FriendsPage />} */}
 
-    {/* <FriendsPage /> */}
+    <FriendsPage />
     {/* <Input onSubmit={mockFunction} /> */}
 
-    <FriendList items={mockData} onClick={mockFunction} />
+    {/* <FriendList items={mockData} onClick={mockFunction} /> */}
     </div>
   )
 }

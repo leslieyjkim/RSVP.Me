@@ -49,5 +49,5 @@ body {
 .FriendList {
   border: green solid thin;
   min-height: 4em;
-  
+  margin: 0.7em;
 }
