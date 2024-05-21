@@ -41,7 +41,7 @@ function App() {
     {/* <FriendsPage /> */}
     {/* <Input onSubmit={mockFunction} /> */}
 
-    <FriendList items={mockData} />
+    <FriendList items={mockData} onClick={mockFunction} />
     </div>
   )
 }
