@@ -7,7 +7,7 @@ import FriendsPage from './components/MainPage';
 import Input from './components/Input';
 import FriendList from './components/FriendList';
 
-
+import mockData from './_mocks_/friends';
 
 function App() {
   const [user, setUser] = useState();
@@ -41,7 +41,7 @@ function App() {
     {/* <FriendsPage /> */}
     {/* <Input onSubmit={mockFunction} /> */}
 
-    <Friendlist />
+    <FriendList items={mockData} />
     </div>
   )
 }
