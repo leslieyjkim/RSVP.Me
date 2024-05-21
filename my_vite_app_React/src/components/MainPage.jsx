@@ -13,7 +13,7 @@ export default function FriendsPage(props) {
     const addItem = function(name) {
         if (!name) return;
 
-        const uid = uniqid();
+        const uid = 123123;
         setData([...data, {name, uid}]);
     };
 
@@ -30,10 +30,10 @@ export default function FriendsPage(props) {
     };
 
     return (
-        <form className='MainPage'>
+        <div className='MainPage'>
             Main Page
-            <Input />
+            <Input onSubmit={addItem}/>
             <FriendList items={data} onClick={deleteItem}/>
-        </form>
+        </div>
     );
 }
