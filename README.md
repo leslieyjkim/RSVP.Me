@@ -1,3 +1,12 @@
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/RSVP.Me/f45fcb3ee3e188af9d466dde78e72d043a5ac417/%231_Sign_in.png)
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/RSVP.Me/f45fcb3ee3e188af9d466dde78e72d043a5ac417/%232_MainPage.png)
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/RSVP.Me/f45fcb3ee3e188af9d466dde78e72d043a5ac417/%233_AddName.png)
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/RSVP.Me/f45fcb3ee3e188af9d466dde78e72d043a5ac417/%234_NameList.png)
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/RSVP.Me/f45fcb3ee3e188af9d466dde78e72d043a5ac417/%235_DeleteName_w%3AClicking.png)
+
+
+
+
 ## This app is for:
 The app is designed to create a list of people who can join a gathering. Creating an application that collects people's names opens up various potential use cases, each with unique goals and creative names.  RSVP stands for "Répondez s'il vous plaît," which is French for "Please respond." It is a request for confirmation of attendance, typically used for events such as parties, weddings, and other gatherings, to know how many people plan to attend. Here are some good name suggestions for the app, along with a nicely phrased statement to prompt users to enter their names if they can join:
 
