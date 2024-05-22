@@ -14,7 +14,7 @@ const Header = function (props) {
     return (
         <div className="Header">
             <div>{props.text}</div>
-            {props.user && <button onClick={props.logout}>Sign Out</button>} 
+            {props.user && <button className="sign-out-button" onClick={props.logout}>Sign Out</button>} 
         </div>
     );
 };

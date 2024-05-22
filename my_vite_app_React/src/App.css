@@ -34,6 +34,39 @@ body {
   /* min-height: 5em; */
 }
 
+.Header {
+  position: relative;
+  padding: 20px; /* Adjust padding as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.sign-out-button {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+  padding: 10px; /* Adjust padding for inner spacing */
+  width: 65px; /* Set a fixed width */
+  height: 30px; /* Set a fixed height */
+  font-size: .7em; /* Adjust font size */
+  background-color: #007bff; /* Optional: button background color */
+  color: white; /* Optional: button text color */
+  border: none; /* Optional: remove button border */
+  border-radius: 4px; /* Optional: round button corners */
+  cursor: pointer; /* Optional: cursor style */
+}
+
+.sign-in-button {
+  padding: 10px; /* Adjust padding for inner spacing */
+  width: 65px; /* Set a fixed width */
+  height: 30px; /* Set a fixed height */
+  font-size: .7em; /* Adjust font size */
+  background-color: #007bff; /* Optional: button background color */
+  color: white; /* Optional: button text color */
+  border: none; /* Optional: remove button border */
+  border-radius: 4px; /* Optional: round button corners */
+  cursor: pointer; /* Optional: cursor style */
+}
+
 .LoginPage {
   /* border: red solid; */
   min-height: 12em;

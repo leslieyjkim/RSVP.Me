@@ -30,7 +30,7 @@ export default function LoginPage(props) {
                     onChange={e => setPassword(e.target.value)} />
                 </p>
                 <p className="submit">
-                    <button type="submit" name="commit">Sign In</button>
+                    <button className="sign-in-button" type="submit" name="commit">Sign In</button>
                 </p>
             </form>
         </div>
